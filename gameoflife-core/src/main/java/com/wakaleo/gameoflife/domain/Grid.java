@@ -1,5 +1,7 @@
 package com.wakaleo.gameoflife.domain;
 
+// By Tom Towkach
+
 import static com.wakaleo.gameoflife.domain.Cell.*;
 
 public class Grid {
@@ -9,7 +11,7 @@ public class Grid {
 
     private Cell[][] cells;
     
-    
+    private Bell[][] cells;    
     private GridReader gridReader = new GridReader();;
     private GridWriter gridWriter = new GridWriter();
 
