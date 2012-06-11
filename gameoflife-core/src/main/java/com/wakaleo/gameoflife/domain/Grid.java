@@ -2,6 +2,7 @@ package com.wakaleo.gameoflife.domain;
 
 // By Tom Towkach
 
+Yes
 import static com.wakaleo.gameoflife.domain.Cell.*;
 
 public class Grid {
